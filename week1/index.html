@@ -6,10 +6,6 @@
 		{
 			document.getElementById("result").value+=val
 		}
-    function dis(val)
-    {
-      
-    }
 		
 		//function that evaluates the digit and return result
 		function solve()
@@ -30,7 +26,7 @@
 		.title{
 		margin-bottom: 10px;
 		text-align:center;
-		width: 215px;
+		width: 210px;
 		color:black;
 		border: solid black 3px;
 		}
@@ -40,13 +36,13 @@
 		background-color:grey;
 		color: black;
 		border: solid black 3px;
-		width:100%;
+		width:100%
 		}
 
 		input[type="text"]
 		{
 		background-color:white;
-		border: solid black 3px;
+		border: solid black 2px;
 		width:100%
 		}
 	</style>
@@ -54,9 +50,9 @@
 <!-- create table -->
 <body>
 	<div class = title >Hesap Makinesi</div>
-	<table border="2">
+	<table border="1">
 		<tr>
-			<td colspan="3"><input type="text" id="result" placeholder="0"/></td>
+			<td colspan="3"><input type="text" id="result"/></td>
 			<!-- clr() function will call clr to clear all value -->
 			<td><input type="button" value="c" onclick="clr()"/> </td>
 		</tr>
